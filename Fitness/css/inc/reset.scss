@@ -143,8 +143,14 @@ a{
   font-family: "OpenSans", sans-serif;
   font-size: 12px;
   font-weight: 700;
+&:hover{
+  color: $main_color;
+  border: $main_color 2px solid;
+}
+
 
 }
+
 
 .button-contact{
   cursor: pointer;

@@ -25,7 +25,7 @@ h1 {
 
 h2 {
   font-family: "OpenSans" ,sans-serif;
-  color: #161418;
+  color: black;
   font-size: 36px;
   font-weight: 700;
   line-height: 30px;
@@ -33,7 +33,7 @@ h2 {
 
 h3 {
   font-family: "OpenSans", sans-serif;
-  color: #161418;
+  color: black;
   font-size: 26px;
   font-weight: 700;
   line-height: 30px; }
@@ -114,8 +114,8 @@ a {
   font-size: 12px;
   font-weight: 700; }
   .head-btn:hover {
-    color: black;
-    border: black 2px solid; }
+    color: #fa7c30;
+    border: #fa7c30 2px solid; }
 
 .button-contact {
   cursor: pointer;
