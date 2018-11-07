@@ -220,7 +220,7 @@ label {
   padding-top: 102px; }
 
 .hero_section {
-  background-image: url(/image/header.jpg);
+  background-image: url(../image/header.jpg);
   background-repeat: no-repeat;
   background-position: center;
   min-height: 950px;

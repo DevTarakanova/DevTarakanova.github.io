@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b121a20-4c61-40c8-959e-c0c98e42df42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/inc/_vars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/inc/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/inc/reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media-screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media-screen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,18 +165,27 @@
           <entry key="SCSS" value="41" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.php.new.class" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.php.composer.actions" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-561" />
+            <state relative-caret-position="423">
+              <caret line="126" column="13" lean-forward="true" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
+            </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/inc/reset.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="434">
@@ -209,8 +211,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7293">
-              <caret line="432" column="35" selection-start-line="432" selection-start-column="35" selection-end-line="432" selection-end-column="35" />
+            <state relative-caret-position="17">
+              <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -240,9 +242,13 @@
       <find>button</find>
       <find>bu</find>
       <find>&lt;img src=&quot;/</find>
+      <find>-image: url(/</find>
+      <find>image: url(/</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;img src=&quot;</replace>
+      <replace>-image: url(</replace>
+      <replace>-image: url(../</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -257,8 +263,8 @@
         <option value="$PROJECT_DIR$/js/global.js" />
         <option value="$PROJECT_DIR$/css/inc/_vars.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/css/inc/reset.scss" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
   </component>
@@ -290,17 +296,6 @@
             <path>
               <item name="Fitness" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fitness" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fitness" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fitness" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fitness" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fitness" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fitness" type="b2602c69:ProjectViewProjectNode" />
@@ -355,12 +350,12 @@
       <workItem from="1540580831903" duration="12750000" />
       <workItem from="1540660087288" duration="96000" />
       <workItem from="1541525178530" duration="439000" />
-      <workItem from="1541542107861" duration="1118000" />
+      <workItem from="1541542107861" duration="1864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162968000" />
+    <option name="totallyTimeSpent" value="163714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="48" width="1296" height="1000" extended-state="6" />
@@ -426,10 +421,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/inc/reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="147" column="31" selection-start-line="147" selection-start-column="31" selection-end-line="147" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7293">
-          <caret line="432" column="35" selection-start-line="432" selection-start-column="35" selection-end-line="432" selection-end-column="35" />
+        <state relative-caret-position="17">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -441,13 +443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/inc/reset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="147" column="31" selection-start-line="147" selection-start-column="31" selection-end-line="147" selection-end-column="31" />
+        <state relative-caret-position="423">
+          <caret line="126" column="13" lean-forward="true" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
         </state>
       </provider>
     </entry>
