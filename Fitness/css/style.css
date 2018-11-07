@@ -380,7 +380,7 @@ label {
 
 .section_personal_trainer {
   margin: 80px 0 0;
-  background: url("/image/bg_traner.jpg");
+  background: url("../image/bg_traner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -406,13 +406,13 @@ label {
   .section_info .info_block-left {
     width: 50%;
     float: left;
-    background-image: url("/image/footer_1.jpg");
+    background-image: url("../image/footer_1.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
   .section_info .info_block-right {
     width: 50%;
     float: left;
-    background-image: url("/image/footer_2.jpg");
+    background-image: url("../image/footer_2.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
   .section_info .info_block .block_txt {
