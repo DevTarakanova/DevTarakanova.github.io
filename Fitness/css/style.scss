@@ -117,7 +117,7 @@ label {
 
 
 .hero_section {
-  background-image:  url(../image/header.jpg);
+  background-image: url(../image/header.jpg);
   background-repeat: no-repeat;
   background-position: center;
   min-height: 950px;
@@ -155,7 +155,6 @@ label {
   right: 0;
   left: 0;
   top: 800px;
-
   background: $bg;
   .row {
     max-width: 1200px;
@@ -164,11 +163,8 @@ label {
   }
 }
 
-
-
 .form-wrap{
   background: white;
-
 }
 
 .img-wrap{
@@ -181,7 +177,6 @@ label {
 
 }
 .wrapper_form {
-
   text-align: center;
   padding:  0 ;
   margin: 0;
@@ -219,7 +214,7 @@ label {
   }
 
   .down{ input[type="text"]{
-    background-image: url("/image/down.png")!important;
+    background-image: url("../image/down.png")!important;
     background-position: right;
     background-repeat: no-repeat;
 
@@ -227,7 +222,7 @@ label {
 
   .time{
     input[type="text"]{
-      background-image: url("/image/time.png")!important;
+      background-image: url("../image/time.png")!important;
       background-position: right;
       background-repeat: no-repeat;
 
@@ -236,7 +231,7 @@ label {
 
   .date{
     input[type="text"]{
-      background-image: url("/image/date.png")!important;
+      background-image: url("../image/date.png")!important;
       background-position: right;
       background-repeat: no-repeat;
 
@@ -349,7 +344,7 @@ label {
 .section_personal_trainer {
 
   margin: 80px 0 0;
-  background: url("/image/bg_traner.jpg");
+  background: url("../image/bg_traner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -385,7 +380,7 @@ label {
     &-left {
       width: 50%;
       float: left;
-      background-image: url('/image/footer_1.jpg');
+      background-image: url('../image/footer_1.jpg');
       background-repeat: no-repeat;
       background-size: cover;
 
@@ -393,7 +388,7 @@ label {
     &-right {
       width: 50%;
       float: left;
-      background-image: url('/image/footer_2.jpg');
+      background-image: url('../image/footer_2.jpg');
       background-repeat: no-repeat;
       background-size: cover;
     }

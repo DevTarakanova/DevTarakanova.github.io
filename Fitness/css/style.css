@@ -292,15 +292,15 @@ label {
       border: none;
       border-bottom: 1px solid #161418; }
   .wrapper_form .down input[type="text"] {
-    background-image: url("/image/down.png") !important;
+    background-image: url("../image/down.png") !important;
     background-position: right;
     background-repeat: no-repeat; }
   .wrapper_form .time input[type="text"] {
-    background-image: url("/image/time.png") !important;
+    background-image: url("../image/time.png") !important;
     background-position: right;
     background-repeat: no-repeat; }
   .wrapper_form .date input[type="text"] {
-    background-image: url("/image/date.png") !important;
+    background-image: url("../image/date.png") !important;
     background-position: right;
     background-repeat: no-repeat; }
   .wrapper_form button {
