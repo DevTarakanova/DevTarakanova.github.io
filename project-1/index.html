@@ -50,15 +50,13 @@
     <!--<link rel="stylesheet" type="text/css" href="css/plugins/slick/slick.css"/>-->
     <!--<link rel="stylesheet" type="text/css" href="css/plugins/slick/slick-theme.css"/>-->
 
-    <!--AOS-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
 
 <!--HEADER-->
 <header class="header">
-    <div class="row">
+    <div class="row head-top">
         <div class="columns large-6">
             <div class="logo">
                 <img src="images/logo.png" alt="">
@@ -66,7 +64,7 @@
         </div>
 
         <div class="columns large-6">
-            <div class="menu-icon">
+            <div class="gamburger">
                 <div class="top-line"></div>
                 <div class="center-line"></div>
                 <div class="bottom-line"></div>
@@ -91,55 +89,55 @@
 
 
 <section class="hero">
-    <div class="hero-text">
-        <h3>we’re</h3>
-        <h1>Creative agency</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.</p>
+    <div class="row hero-content">
+            <div class="hero-text">
+                <h3>we’re</h3>
+                <h1>Creative agency</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua.</p>
+            </div>
+    </div>
+</section>
+
+<section class="wrapper-post">
+    <div class="row">
+        <div class="columns large-6">
+            <div class="post-left">
+                <img src="images/white_table.jpg" alt="">
+            </div>
+        </div>
+        <div class="columns large-6">
+            <div class="post-right">
+                <h2 class="green-line">HISTORY OF AGENCY</h2>
+                <p>Porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                    adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
+                    dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                    exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+                    modi tempora incidunt ut labore.
+                </p>
+                <a class="button-green" href="#">Read more</a>
+            </div>
+        </div>
     </div>
 
 </section>
 
 <!--MAIN-->
 <main class="main">
-
-    <div class="block-post">
-        <div class="row">
-            <div class="columns large-6">
-                <div class="post-left">
-                    <img src="images/white_table.jpg" alt="">
-                </div>
-            </div>
-            <div class="columns large-6">
-                <div class="post-right">
-                    <h2>HISTORY OF AGENCY</h2>
-                    <p>Porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                        adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
-                        dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-                        exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-                        modi tempora incidunt ut labore.
-                    </p>
-                    <a class="button" href="#">Read more</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     <section class=" block-options">
         <div class="row">
             <div class="head-text">
-                <h2>why choose </h2>
+                <h2 class="green-line">why choose </h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqu.</p>
 
             </div>
         </div>
 
-        <div class="row">
+        <div class="row option-content">
             <div class="columns large-6">
-                <div class="options-items">
-                    <div class="options-items_1">
+                    <div class="options-items">
                         <img src="images/option.png" alt="">
                         <h3>unlimited options</h3>
                         <p>Branding
@@ -149,7 +147,7 @@
                         </p>
 
                     </div>
-                    <div class="options-items_2">
+                    <div class="options-items">
                         <img src="images/design.png" alt="">
                         <h3>DESIGN & DEVELOPMENT</h3>
                         <p>
@@ -159,7 +157,7 @@
                             Integrated ad Companies
                         </p>
                     </div>
-                    <div class="options-items_3">
+                    <div class="options-items">
                         <img src="images/e-comerce.png" alt="">
                         <h3>e-commerce</h3>
                         <p>Prototyping
@@ -169,7 +167,7 @@
                         </p>
 
                     </div>
-                    <div class="options-items_4">
+                    <div class="options-items">
                         <img src="images/settings.png" alt="">
                         <h3> CUSTOMIZABLE DESIGN</h3>
                         <p>Information architecture
@@ -178,10 +176,6 @@
                             Integrated ad Companies
                         </p>
                     </div>
-
-
-                </div>
-
             </div>
             <div class="columns large-6"></div>
             <div class="image-options">
@@ -195,7 +189,7 @@
     <section class=" block-portfolio">
         <div class="row">
             <div class="head-text">
-                <h2>our portfolio</h2>
+                <h2 class="green-line">our portfolio</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqu.</p>
 
@@ -311,8 +305,13 @@
 <!--<script type="text/javascript" src="js/plugins/slick/slick.min.js"></script>-->
 
 
-<!--AOS-->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--jQuery CDN-->
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
 
 <!--- SCRIPTS --->
 <script src="js/global.js"></script>
