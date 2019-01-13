@@ -1,10 +1,10 @@
 
 
-console.log($);
+
 
 (function($){
 
-    AOS.init({ disable: 'mobile' });
+
 
 
 
