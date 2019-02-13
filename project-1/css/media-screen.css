@@ -93,6 +93,15 @@ h5 {
   font-weight: 700;
   line-height: 36px; }
 
+h6 {
+  font-family: Montserrat ,  sans-serif;
+  color: #60606e;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center; }
+
 p {
   font-family: OpenSans, sans-serif;
   padding-top: 10px;
@@ -116,8 +125,60 @@ li {
   font-weight: 700;
   text-align: center; }
 
-.head-text {
+.button-white {
+  float: left;
+  margin: 60px 0;
+  background: white;
+  padding: 20px 40px;
+  color: #7beec7;
+  font-size: 14px;
+  font-weight: 700;
   text-align: center; }
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0; }
+
+form {
+  position: relative;
+  width: 100% !important;
+  margin: 0 auto; }
+
+input, button {
+  border: none;
+  outline: none;
+  border-radius: 3px; }
+
+input {
+  width: 100%;
+  height: 50px;
+  background: #F9F0DA;
+  padding-left: 15px; }
+
+input[type="text"] {
+  font-family: Montserrat ,sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700; }
+
+button {
+  padding: 10px 30px;
+  position: absolute;
+  cursor: pointer;
+  background: #7beec7;
+  right: 0;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 14px;
+  font-family: Montserrat ,sans-serif; }
+
+.head-text {
+  text-align: center;
+  margin: 50px 50px; }
 
 .green-line {
   position: relative;
@@ -130,3 +191,122 @@ li {
     background: #7beec7;
     bottom: 0;
     z-index: -1; }
+
+@media only screen and (max-width: 1440px) {
+  .hero-content {
+    min-height: 577px !important; } }
+
+@media only screen and (max-width: 1024px) {
+  .hero-content {
+    min-height: 400px !important; }
+  .option-content {
+    padding-top: 50px !important; }
+  .image-options img {
+    display: none; }
+  .options-items {
+    margin: 0 15px !important; }
+  .portfolio-list nav {
+    text-align: center;
+    padding: 10px 10px; }
+    .portfolio-list nav li {
+      display: block;
+      margin: 0 auto; }
+  .portfolio-list h2 {
+    text-align: center; }
+  .block-portfolio {
+    padding-top: 50px;
+    height: 1100px; }
+  .image-options img {
+    display: none; }
+  h2 {
+    text-align: center;
+    font-size: 30px; }
+  h4 {
+    font-size: 25px; }
+  .button-white {
+    font-size: 13px;
+    padding: 15px 30px;
+    margin: 30px 0; }
+  .green-block .block-footer_form {
+    padding: 0 !important; }
+  h5 {
+    font-size: 25px; }
+  p {
+    font-size: 14px; }
+  .block-footer_form__content {
+    padding: 10px 20px; }
+  .footer-menu li {
+    font-size: 14px; } }
+
+@media only screen and (max-width: 992px) {
+  .block-portfolio {
+    padding-top: 50px; }
+  .portfolio-list h2 {
+    font-size: 20px; }
+  .options-items h3 {
+    font-size: 15px; }
+  .options-items p {
+    font-size: 13px; }
+  .image-options img {
+    display: none; }
+  h2 {
+    text-align: center;
+    font-size: 24px; }
+  h4 {
+    font-size: 20px; }
+  .button-white {
+    font-size: 13px;
+    padding: 15px 30px;
+    margin: 30px 0; }
+  .green-block .block-footer_form {
+    padding: 0 !important; }
+  h5 {
+    font-size: 15px; }
+  p {
+    font-size: 14px; }
+  .block-footer_form__content {
+    padding: 10px 20px; }
+  .copyright p {
+    font-size: 13px; } }
+
+@media only screen and (max-width: 889px) {
+  .option-table {
+    width: 100%; } }
+
+@media only screen and (max-width: 800px) {
+  .post-right .button-green {
+    margin: 15px !important; }
+  .block-options {
+    padding-top: 65px; }
+  .footer-menu li {
+    font-size: 13px;
+    padding: 5px !important; }
+  .copyright p {
+    display: none; } }
+
+@media only screen and (max-width: 768px) {
+  .options-items {
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 20px !important; } }
+
+@media only screen and (max-width: 600px) {
+  .options-items {
+    min-width: 425px;
+    text-align: center;
+    margin-bottom: 20px !important; }
+  .portfolio-list_menu li {
+    display: inline-block !important;
+    margin: 0; } }
+
+@media only screen and (max-width: 480px) {
+  .options-items {
+    min-width: 425px;
+    text-align: center;
+    margin-bottom: 20px !important; } }
+
+@media only screen and (max-width: 320px) {
+  .options-items {
+    min-width: 400px;
+    text-align: center;
+    margin-bottom: 20px !important; } }

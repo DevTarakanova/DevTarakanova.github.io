@@ -1,0 +1,136 @@
+@import "inc/vars";
+@import "inc/slider";
+@import "inc/reset";
+@import "inc/default_style";
+
+body {
+  background-image: url("../images/bg_gray.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 500px;
+
+}
+////////////////////////////////////
+//HEADER//
+///////////////////////////////////
+
+.header {
+  .head-top {
+    max-width: 1150px;
+    padding-top: 40px;
+  }
+}
+
+//MENU
+
+.gamburger {
+  float: right;
+  .top-line {
+    border-bottom: 1px solid gray;
+    padding: 3px;
+    width: 31px;
+  }
+  .center-line {
+    border-bottom: 1px solid gray;
+    padding: 3px;
+    width: 15px;
+
+
+  }
+  .bottom-line {
+    border-bottom: 1px solid gray;
+    padding: 3px;
+    width: 23px;
+  }
+}
+
+.main-menu {
+  display: none;
+}
+
+.hero {
+
+  .hero-content {
+    position: relative;
+    min-height: 500px;
+    max-width: 560px;
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-width: 100%;
+      min-height: 30%;
+      object-fit: none;
+
+
+      h3 {
+        font-size: 14px;
+        text-align: center;
+        line-height: 48px;
+      }
+
+    }
+  }
+
+}
+
+//////////////////////////////////////
+//MAIN//
+///////////////////////////////////////
+
+
+
+
+////////////////////////////////////
+//FOOTER//
+///////////////////////////////////
+
+footer {
+
+  .green-block {
+    position: relative;
+    background: $green_color;
+    height: 330px;
+
+    .row {
+      position: relative;
+      padding: 30px 0;
+    }
+
+    .block-footer_form {
+      background: white;
+      padding: 20px 25px;
+    }
+  }
+
+  .down-wrapper {
+    padding: 30px 0;
+  }
+  .footer-menu {
+
+    li {
+      display: inline-block;
+      padding: 10px;
+      color: $menu_color;
+    }
+  }
+
+  .copyright {
+    float: right;
+    text-transform: uppercase;
+    p {
+      padding: 0;
+      color: $menu_color;
+    }
+  }
+  .social-icon {
+    float: right;
+    display: flex;
+    li {
+      padding: 10px;
+      color: $gray_color;
+    }
+  }
+}
