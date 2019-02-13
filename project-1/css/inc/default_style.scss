@@ -60,7 +60,16 @@ h5{
   line-height: 36px;
 }
 
-h6{}
+h6{
+
+  font-family: Montserrat ,  sans-serif;
+  color: $dark-gray_color;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
 
 
 p{
@@ -90,8 +99,71 @@ li{
 }
 
 
+.button-white{
+  float: left;
+  margin: 60px 0;
+  background: white;
+  padding: 20px 40px;
+  color: $green_color;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+///////////////////////////////////////////
+//FORM//
+///////////////////////////////////////////
 
 
+
+.search {
+  display: flex;
+  padding: 20px 0 ;
+
+}
+
+form {
+  position: relative;
+  width: 100%!important;
+  margin: 0 auto;
+
+}
+input, button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+
+
+}
+input {
+  width: 100%;
+  height: 50px;
+  background: #F9F0DA;
+  padding-left: 15px;
+
+
+}
+
+input[type="text"]{
+  font-family: Montserrat ,sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+
+}
+button {
+  padding: 10px 30px;
+  position: absolute;
+  cursor: pointer;
+  background: $green_color;
+  right: 0;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 14px;
+  font-family: Montserrat ,sans-serif;
+}
 
 
 
@@ -105,6 +177,7 @@ li{
 
 .head-text{
   text-align: center;
+  margin: 50px 50px;
 }
 
 

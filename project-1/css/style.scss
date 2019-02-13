@@ -23,7 +23,6 @@ body {
   }
 }
 
-
 //MENU
 
 .gamburger {
@@ -38,6 +37,7 @@ body {
     padding: 3px;
     width: 15px;
 
+
   }
   .bottom-line {
     border-bottom: 1px solid gray;
@@ -50,14 +50,13 @@ body {
   display: none;
 }
 
-
-
 //HERO SECTION
 
 .hero {
+
   .hero-content {
     position: relative;
-    height: 755px;
+    min-height: 865px;
     max-width: 560px;
     .hero-text {
       position: absolute;
@@ -91,47 +90,125 @@ body {
 }
 
 //WRAPPER_POST
+.wrapper-post{
 
-.wrapper-post {
-  .post-left {
-  }
-  .post-right {
-
-  }
+position: center;
 }
-
-
-
-
 
 ///////////////////////////////////////
 //*Main*//
 ///////////////////////////////////////
 
-.main{
+//OPTION
+
+.block-options {
+  padding-top: 150px;
+  p {
+    text-transform: uppercase;
+  }
+  .option-content {
+    padding-top: 130px;
+
+    .options-items {
+      max-width: 250px;
+      width: 100%;
+      display: inline-block;
+      vertical-align: top;
+      margin: 10px 20px 10px 20px;
+      padding: 10px 0 10px 0;
+    }
+  }
+}
+
+//PORTFOLIO
+.block-portfolio {
+  height: 1280px;
   padding-top: 150px;
 
 }
 
+.portfolio-content {
+  .portfolio-list {
+    .portfolio-list_menu {
+      ul {
+        li {
+          padding: 10px;
 
-.block-options{
-  .option-content{
-    padding-top: 130px;
+          span {
+            display: inline;
+            font-weight: 700;
+            text-align: left;
+            color: $dark-gray_color;
+            font-size: 14px;
+            font-family: Montserrat, sans-serif;
+            &:hover {
+              padding: 4px 20px;
+              background: $green_color;
+              color: white;
+              background-size: 40%;
+            }
+          }
+        }
+      }
 
-    .options-items{
-      max-width: 250px;
     }
   }
+
+  .item {
+    padding: 10px;
+    width: 33%;
+  }
+
 }
 
 //*Footer*//
 
 footer {
 
-  .green-block {
-    background: $green_color;
 
+  .green-block {
+    position: relative;
+    background: $green_color;
+    height: 330px;
+
+    .row {
+      position: relative;
+      padding: 30px 0 ;
+    }
+
+    .block-footer_form {
+      background: white;
+      padding: 20px 25px;
+    }
   }
 
+  .down-wrapper {
+    padding: 30px 0;
+  }
+  .footer-menu {
+
+    li {
+      display: inline-block;
+      padding: 10px;
+      color: $menu_color;
+    }
+  }
+
+  .copyright {
+    float: right;
+    text-transform: uppercase;
+    p {
+      padding: 0;
+      color: $menu_color;
+    }
+  }
+  .social-icon {
+    float: right;
+    display: flex;
+    li {
+      padding: 10px;
+      color: $gray_color;
+    }
+  }
 }
 

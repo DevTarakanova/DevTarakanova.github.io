@@ -193,11 +193,11 @@ button {
     z-index: -1; }
 
 body {
-  background-image: url("../images/hero_bg.jpg");
+  background-image: url("../images/bg_gray.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
-  height: 850px; }
+  height: 500px; }
 
 .header .head-top {
   max-width: 1150px;
@@ -223,7 +223,7 @@ body {
 
 .hero .hero-content {
   position: relative;
-  min-height: 865px;
+  min-height: 500px;
   max-width: 560px; }
   .hero .hero-content .hero-text {
     position: absolute;
@@ -236,60 +236,10 @@ body {
     min-height: 30%;
     -o-object-fit: none;
     object-fit: none; }
-    .hero .hero-content .hero-text h3, .hero .hero-content .hero-text h1, .hero .hero-content .hero-text p {
-      text-align: center; }
-    .hero .hero-content .hero-text h1 {
-      border: 10px solid #60606e;
-      padding: 15px; }
     .hero .hero-content .hero-text h3 {
-      margin: 0 auto;
-      background: #7beec7;
-      width: 100px;
-      height: 35px; }
-    .hero .hero-content .hero-text p {
-      font-size: 16px;
-      line-height: 25px;
-      padding: 15px; }
-
-.wrapper-post {
-  position: center; }
-
-.block-options {
-  padding-top: 150px; }
-  .block-options p {
-    text-transform: uppercase; }
-  .block-options .option-content {
-    padding-top: 130px; }
-    .block-options .option-content .options-items {
-      max-width: 250px;
-      width: 100%;
-      display: inline-block;
-      vertical-align: top;
-      margin: 10px 20px 10px 20px;
-      padding: 10px 0 10px 0; }
-
-.block-portfolio {
-  height: 1280px;
-  padding-top: 150px; }
-
-.portfolio-content .portfolio-list .portfolio-list_menu ul li {
-  padding: 10px; }
-  .portfolio-content .portfolio-list .portfolio-list_menu ul li span {
-    display: inline;
-    font-weight: 700;
-    text-align: left;
-    color: #60606e;
-    font-size: 14px;
-    font-family: Montserrat, sans-serif; }
-    .portfolio-content .portfolio-list .portfolio-list_menu ul li span:hover {
-      padding: 4px 20px;
-      background: #7beec7;
-      color: white;
-      background-size: 40%; }
-
-.portfolio-content .item {
-  padding: 10px;
-  width: 33%; }
+      font-size: 14px;
+      text-align: center;
+      line-height: 48px; }
 
 footer .green-block {
   position: relative;
